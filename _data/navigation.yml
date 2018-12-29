@@ -1,10 +1,10 @@
-- name: About
-  link: #about
-- name: Portfolio
-  link: #portfolio
+- name: <a href="#about">About</a>
+  link: 
+- name: <a href="#portfolio">Portfolio</a>
+  link: 
 - name: <img src="assets\images\lotus.png">
   link: /
-- name: Blog
-  link: #blog
-- name: Contact
+- name: <a href="#blog">Blog</a>
+  link: 
+- name: <a href="#contact">Contact</a>
   link: 

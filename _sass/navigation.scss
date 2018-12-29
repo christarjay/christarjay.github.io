@@ -1,6 +1,5 @@
-
 // ------ header ------
-header {
+.header {
     background: url('../images/Background.jpg') no-repeat;
     background-size: cover;
     height: 100%;
@@ -24,16 +23,18 @@ header {
     font-size: 25px;
     text-shadow: 1px 1px #460a0a;
 }
-.nav {
+nav {
     height: 60px;
-    text-align: center;
+    text-align: center;  
+}
+.nav {
     position: absolute;
     bottom: 0;
     overflow: hidden;
     background: none;
     width: 100%;
 }
-.nav a {
+nav a {
     font-size: 30px;
     padding: 8px;
     color: #f1f4e8;
@@ -52,6 +53,18 @@ header {
     text-align: center;
 }
 
+// ------ navigation ------
+.top-nav {
+    background: #460a0a;
+    height: 40px;
+}
+.mid-nav {
+    height: 60px;
+}
+.bottom-nav {
+    background: #460a0a;
+    height: 80px;
+}
 // ------ footer ------
 footer {
     background: #460a0a;
@@ -59,7 +72,7 @@ footer {
 }
 .flex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .thanks {
@@ -69,4 +82,3 @@ footer {
     text-transform: lowercase;
     text-align: center;
 }
-

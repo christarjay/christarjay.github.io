@@ -32,13 +32,13 @@ main p {
   height: 300px; }
 
 #about {
-  background: #460a0a;
+  background: #836464;
   height: 600px;
   padding-top: 10px; }
 
 #portfolio {
-  background: #af8b8b;
-  height: 600px;
+  background: #e24f4f;
+  height: 500px;
   padding-top: 10px; }
 
 #blog {
@@ -51,7 +51,41 @@ main p {
   width: 45%;
   padding: 16px; }
 
-header {
+#contact {
+  background: #af8b8b;
+  height: 500px;
+  padding-top: 10px; }
+
+.submit {
+  display: flex;
+  justify-content: space-evenly; }
+
+.btn {
+  width: 200px;
+  height: 100px;
+  font-size: 18px;
+  box-shadow: 6px 6px 15px 2px #460a0a; }
+
+.correspondence {
+  margin: 16px; }
+
+.greetings {
+  text-align: start;
+  color: #af8b8b; }
+
+.request {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  color: #000; }
+
+.submit {
+  width: 100px;
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 16px; }
+
+.header {
   background: url("../images/Background.jpg") no-repeat;
   background-size: cover;
   height: 100%; }
@@ -75,16 +109,18 @@ header {
   font-size: 25px;
   text-shadow: 1px 1px #460a0a; }
 
-.nav {
+nav {
   height: 60px;
-  text-align: center;
+  text-align: center; }
+
+.nav {
   position: absolute;
   bottom: 0;
   overflow: hidden;
   background: none;
   width: 100%; }
 
-.nav a {
+nav a {
   font-size: 30px;
   padding: 8px;
   color: #f1f4e8;
@@ -102,13 +138,24 @@ header {
   transform: translate(-50%, -50%);
   text-align: center; }
 
+.top-nav {
+  background: #460a0a;
+  height: 40px; }
+
+.mid-nav {
+  height: 60px; }
+
+.bottom-nav {
+  background: #460a0a;
+  height: 80px; }
+
 footer {
   background: #460a0a;
   height: 150px; }
 
 .flex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center; }
 
 .thanks {
