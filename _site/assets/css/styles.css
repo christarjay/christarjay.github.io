@@ -68,18 +68,32 @@ main p {
 
 .contact {
   display: inline-flex;
-  justify-content: space-evenly;
-  margin: 18px; }
+  margin: 16px; }
 
-.welcome {
-  padding-right: 16px; }
+.columnone {
+  padding: 16px;
+  margin-right: 8px;
+  width: 40%;
+  border: 1px solid red; }
 
 .correspondence {
-  padding-left: 16px; }
+  padding: 16px;
+  margin-left: 8px;
+  border: 1px solid red; }
 
 .greetings {
+  font-family: 'Charmonman', cursive;
+  margin-top: 0;
+  font-size: 35px;
   text-align: start;
   color: #af8b8b; }
+
+.welcome {
+  color: #e24f4f; }
+
+.linetwo {
+  color: #4b4c4d;
+  margin-left: 10%; }
 
 .request, .details {
   color: #000; }
@@ -87,15 +101,23 @@ main p {
 .request {
   text-align: justify; }
 
-.submit {
-  width: 100px;
-  height: 25px;
-  margin: 0 auto;
-  margin-top: 16px; }
+.email {
+  width: 90px;
+  height: 30px;
+  margin: 0 auto; }
+
+.emailbtn {
+  font-family: 'Charmonman' , cursive;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 8px;
+  background: none;
+  border: none;
+  color: #af8b8b; }
 
 ::placeholder {
   text-align: center;
-  font-size: 16px; }
+  font-size: 12px; }
 
 .header {
   background: url("../images/Background.jpg") no-repeat;
@@ -153,14 +175,11 @@ nav a {
 
 .top-nav {
   background: #460a0a;
-  height: 60px; }
+  height: 40px; }
 
 .navigation {
-  float: left; }
-
-.contact {
   float: left;
-  width: 45%; }
+  margin-left: 5%; }
 
 footer {
   background: #460a0a;

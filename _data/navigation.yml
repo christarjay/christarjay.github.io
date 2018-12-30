@@ -1,9 +1,9 @@
+- name: Home
+  link: https://www.christarjay.github.io
 - name: <a href="#about">About</a>
   link: 
 - name: <a href="#portfolio">Portfolio</a>
   link: 
-- name: <img src="assets\images\lotus.png">
-  link: /
 - name: <a href="#blog">Blog</a>
   link: 
 - name: <a href="#contact">Contact</a>
