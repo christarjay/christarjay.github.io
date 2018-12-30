@@ -67,23 +67,35 @@ main p {
     box-shadow: 6px 6px 15px 2px #460a0a;
 }
 
-// ------ job/freelance html ------
+// ------ contact ------
+.contact {
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: 18px;
+}
+.welcome {
+    padding-right: 16px;
+}
 .correspondence {
-    margin: 16px;
+    padding-left: 16px;
 }
 .greetings {
     text-align: start;
     color: #af8b8b;
 }
-.request {
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: justify;
+.request, .details {
     color: #000;
+}
+.request {
+    text-align: justify;
 }
 .submit {
     width: 100px;
     height: 25px;
     margin: 0 auto;
     margin-top: 16px;
+}
+::placeholder {
+    text-align: center;
+    font-size: 16px;
 }

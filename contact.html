@@ -1,11 +1,40 @@
 ---
 layout: default
-title: CRJ GitHub Portfolio | Home
+title: CRJ GitHub Portfolio | Contact
 ---
 
-<h1>Contact</h1>
+<div class="contact">
+    <div class="welcome">
+        <p>Thank you for stopping by,</p>
+    <div class="welcome second-line">
+        <p>don't leave without saying hi...</p>
+        <div class="request">
+        <p>I would love to hear from you and discuss your next great project, idea or business opportunity. A 'hello' is always welcome too.</p>
 
-<form action="">
-
-</form>
-
+        <p>Please allow 1 to 2 business days for a response.</p>
+        </div>
+    </div>
+    <div class="correspondence">
+        <h1 class="greetings">Greetings Christa,</h1>
+    <form action="mailto:christarjay@gmail.com?subject=Portfolio_Contact_Form_Submission" method="post" enctype="text/plain">
+        <div class="request">
+        <p>My name is <input type="text" id="name" name="name" placeholder="Polly Pocket" required> and I would like to discuss a <select name="subject" id="subject" required> 
+            <option value="empty space"></option>
+            <option value="new project">new project</option>
+            <option value="business opportunity">business opportunity</option>
+        </select> with you.</p>
+        <br>
+        <p>I can be reached by email at <input type="email" name="emailaddress" id="email" placeholder="polly@example.com" size="32" minlength="11" maxlength="64" required> and/or <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">.</p>
+        <br>
+        </div>
+        <div class="details">
+            <p>Additional Details:</p>
+            <textarea name="Additional Information" id="additional" cols="60" rows="10" placeholder="Please include any other important details you would like me to know." required></textarea>
+        <br>
+        </div>
+        <div class="submit">
+            <button type="submit">Send</button>
+        </div>
+    </form>
+    </div>
+</div>

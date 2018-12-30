@@ -7,6 +7,7 @@
 .social-media {
     margin-top: 8px;
     float: right;
+    margin-right: 5%;
 }
 .fab {
     color: #f1f4e8;
@@ -56,15 +57,16 @@ nav a {
 // ------ navigation ------
 .top-nav {
     background: #460a0a;
-    height: 40px;
-}
-.mid-nav {
     height: 60px;
 }
-.bottom-nav {
-    background: #460a0a;
-    height: 80px;
+.navigation {
+    float: left;
 }
+.contact {
+    float: left;
+    width: 45%;  
+}
+
 // ------ footer ------
 footer {
     background: #460a0a;

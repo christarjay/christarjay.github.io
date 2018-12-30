@@ -1,19 +1,17 @@
 <div class="top-nav">
+    <nav class="navigation">
+        <div class="links">
+            {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url==item.link %} class="current" {% endif %}>
+                {{ item.name }}
+            </a>
+            {% endfor %}
+        </div>
+    </nav>
     <div class="social-media">
         <a href="https://twitter.com/ChrisReneeJae" target="_blank"><i class=" fab fa-twitter"></i></a>
         <a href="https://github.com/christarjay?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/christa-johnson/" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
 </div>
-<div class="mid-nav">
 
-</div>
-<nav class="bottom-nav">
-    <div class="links">
-        {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url==item.link %} class="current" {% endif %}>
-            {{ item.name }}
-        </a>
-        {% endfor %}
-    </div>
-</nav>

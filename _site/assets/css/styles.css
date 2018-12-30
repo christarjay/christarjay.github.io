@@ -66,24 +66,36 @@ main p {
   font-size: 18px;
   box-shadow: 6px 6px 15px 2px #460a0a; }
 
+.contact {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 18px; }
+
+.welcome {
+  padding-right: 16px; }
+
 .correspondence {
-  margin: 16px; }
+  padding-left: 16px; }
 
 .greetings {
   text-align: start;
   color: #af8b8b; }
 
-.request {
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: justify;
+.request, .details {
   color: #000; }
+
+.request {
+  text-align: justify; }
 
 .submit {
   width: 100px;
   height: 25px;
   margin: 0 auto;
   margin-top: 16px; }
+
+::placeholder {
+  text-align: center;
+  font-size: 16px; }
 
 .header {
   background: url("../images/Background.jpg") no-repeat;
@@ -92,7 +104,8 @@ main p {
 
 .social-media {
   margin-top: 8px;
-  float: right; }
+  float: right;
+  margin-right: 5%; }
 
 .fab {
   color: #f1f4e8;
@@ -140,14 +153,14 @@ nav a {
 
 .top-nav {
   background: #460a0a;
-  height: 40px; }
-
-.mid-nav {
   height: 60px; }
 
-.bottom-nav {
-  background: #460a0a;
-  height: 80px; }
+.navigation {
+  float: left; }
+
+.contact {
+  float: left;
+  width: 45%; }
 
 footer {
   background: #460a0a;
