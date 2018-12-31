@@ -9,14 +9,13 @@ body {
 
 a:hover {
   background: #f7f7f7;
-  color: #36ccb8; }
+  color: #36ccb8;
+  border: 2px solid #460a0a; }
 
 a:focus {
   background: #f7f7f7;
-  color: #cc3693; }
-
-.current {
-  color: #36ccb8; }
+  color: #cc3693;
+  border: 2px solid #460a0a; }
 
 main {
   text-align: center; }
@@ -50,6 +49,7 @@ main p {
   position: relative; }
 
 .pic {
+  border: 5px double #460a0a;
   border-radius: 5px; }
 
 .resume {
@@ -97,13 +97,11 @@ main p {
 .columnone {
   padding: 16px;
   margin-right: 8px;
-  width: 40%;
-  border: 1px solid red; }
+  width: 40%; }
 
 .correspondence {
   padding: 16px;
-  margin-left: 8px;
-  border: 1px solid red; }
+  margin-left: 8px; }
 
 .greetings {
   font-family: 'Charmonman', cursive;
