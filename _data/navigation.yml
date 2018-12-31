@@ -1,10 +1,10 @@
 - name: Home
-  link: https://www.christarjay.github.io
-- name: <a href="#about">About</a>
-  link: 
-- name: <a href="#portfolio">Portfolio</a>
-  link: 
-- name: <a href="#blog">Blog</a>
-  link: 
-- name: <a href="#contact">Contact</a>
-  link: 
+  link: https://christarjay.github.io
+- name: About
+  link: https://christarjay.github.io/#about
+- name: Portfolio
+  link: https://christarjay.github.io/#portfolio
+- name: Blog
+  link: https://christarjay.github.io/#blog
+- name: Contact
+  link: https://christarjay.github.io/contact.html

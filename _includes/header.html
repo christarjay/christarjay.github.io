@@ -1,5 +1,5 @@
 <header class="header">
-    <nav class="nav">
+    <nav class="nav" id="navbar">
         <div class="links">
             {% for item in site.data.navigation %}
             <a href="{{ item.link }}" {% if page.url==item.link %} class="current" {% endif %}>
@@ -15,7 +15,7 @@
         </div>
         <div class="intro">
             <h1 class="name">Christa Johnson</h1>
-            <p class="outline">I am a front end web developer and designers that loves creating simple mobile and user
+            <p class="outline">I am a front end web developer and designer that loves to create simple mobile and user
             friendly experiences.</p>
         </div>
 </header>

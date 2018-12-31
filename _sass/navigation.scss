@@ -1,6 +1,6 @@
 // ------ header ------
 .header {
-    background: url('../images/Background.jpg') no-repeat;
+    background: linear-gradient( rgba(128, 116, 116, 0.5) , rgba(128, 116, 116, 0.5)) , url('../images/Background.jpg') no-repeat;
     background-size: cover;
     height: 100%;
 }
@@ -22,10 +22,10 @@
 .outline {
     margin-top: 0;
     font-size: 25px;
-    text-shadow: 1px 1px #460a0a;
+    text-shadow: 1px 1px #000;
 }
 nav {
-    height: 60px;
+    height: 40px;
     text-align: center;  
 }
 .nav {
@@ -41,6 +41,13 @@ nav a {
     color: #f1f4e8;
     text-transform: lowercase;
     text-decoration: none;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(70, 10, 10, 0.75);
+    z-index: 2;
 }
 .links img {
     width: 70px;

@@ -1,10 +1,12 @@
-// var docWidth = document.documentElement.offsetWidth;
+// add sticky bar
+let navbar = document.getElementById("navbar");
 
-// [].forEach.call(
-//     document.querySelectorAll('*'),
-//     function (el) {
-//         if (el.offsetWidth > docWidth) {
-//             console.log(el);
-//         }
-//     }
-// );
+let sticky = navbar.offsetTop;
+
+window.onscroll = function navScroll() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}

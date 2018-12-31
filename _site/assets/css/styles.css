@@ -5,7 +5,18 @@ body {
   margin: 0 auto;
   height: 100%;
   font-family: 'Poiret One' , cursive;
-  color: #f1f4e8; }
+  color: #f7f7f7; }
+
+a:hover {
+  background: #f7f7f7;
+  color: #36ccb8; }
+
+a:focus {
+  background: #f7f7f7;
+  color: #cc3693; }
+
+.current {
+  color: #36ccb8; }
 
 main {
   text-align: center; }
@@ -25,20 +36,33 @@ main p {
 
 .description {
   display: inline-flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  align-items: center; }
 
 .breakdown {
   width: 30%;
   height: 300px; }
 
 #about {
-  background: #836464;
-  height: 600px;
-  padding-top: 10px; }
+  background: #ad8787;
+  height: 500px;
+  padding-top: 10px;
+  position: relative; }
+
+.pic {
+  border-radius: 5px; }
+
+.resume {
+  color: #f7f7f7;
+  font-size: 20px;
+  position: absolute;
+  bottom: 3px;
+  left: 16px; }
 
 #portfolio {
-  background: #e24f4f;
-  height: 500px;
+  background: linear-gradient(rgba(226, 79, 79, 0.6), rgba(226, 79, 79, 0.6)), url("/assets/images/portfolio.jpg") no-repeat;
+  background-size: cover;
+  height: 900px;
   padding-top: 10px; }
 
 #blog {
@@ -120,7 +144,7 @@ main p {
   font-size: 12px; }
 
 .header {
-  background: url("../images/Background.jpg") no-repeat;
+  background: linear-gradient(rgba(128, 116, 116, 0.5), rgba(128, 116, 116, 0.5)), url("../images/Background.jpg") no-repeat;
   background-size: cover;
   height: 100%; }
 
@@ -142,10 +166,10 @@ main p {
 .outline {
   margin-top: 0;
   font-size: 25px;
-  text-shadow: 1px 1px #460a0a; }
+  text-shadow: 1px 1px #000; }
 
 nav {
-  height: 60px;
+  height: 40px;
   text-align: center; }
 
 .nav {
@@ -161,6 +185,13 @@ nav a {
   color: #f1f4e8;
   text-transform: lowercase;
   text-decoration: none; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(70, 10, 10, 0.75);
+  z-index: 2; }
 
 .links img {
   width: 70px;
