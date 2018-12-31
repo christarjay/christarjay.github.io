@@ -7,15 +7,11 @@ body {
     font-family: 'Poiret One' , cursive;
     color: #f7f7f7;
 }
-a:hover {
-    background: #f7f7f7;
+.links a:hover {
     color: #36ccb8;
-    border: 2px solid #460a0a;
 }
-a:focus {
-    background: #f7f7f7;
+.links a:focus {
     color: #cc3693;
-    border: 2px solid #460a0a;
 }
 main {
     text-align: center;

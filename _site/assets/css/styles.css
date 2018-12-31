@@ -7,15 +7,11 @@ body {
   font-family: 'Poiret One' , cursive;
   color: #f7f7f7; }
 
-a:hover {
-  background: #f7f7f7;
-  color: #36ccb8;
-  border: 2px solid #460a0a; }
+.links a:hover {
+  color: #36ccb8; }
 
-a:focus {
-  background: #f7f7f7;
-  color: #cc3693;
-  border: 2px solid #460a0a; }
+.links a:focus {
+  color: #cc3693; }
 
 main {
   text-align: center; }
@@ -155,6 +151,12 @@ main p {
   color: #f1f4e8;
   padding-right: 12.5px;
   font-size: 25px; }
+
+.fab:hover {
+  color: #36ccb8; }
+
+.fab:focus {
+  color: #cc3693; }
 
 .name {
   font-family: 'Charmonman' , cursive;
